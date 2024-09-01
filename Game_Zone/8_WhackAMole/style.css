@@ -1,0 +1,37 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: url(image/background.jpg);
+    background-size: cover;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    background: url(image/soil.png);
+    background-size: cover;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div{
+    width: 135px;
+    height: 135px;
+    background-image: url(image/pipe.png);
+    background-size: cover;
+}
+
+#board div img{
+    width: 80px;
+    height: 80px;
+
+    /* To avoid the images to drag*/
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}

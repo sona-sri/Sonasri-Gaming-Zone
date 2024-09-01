@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-image: url(Cards.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    
+}
+h1{
+    margin-top: 80px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 4px rgb(248, 5, 5);
+}
+
+#message-el{
+    margin-top: 30px;
+    color:whitesmoke;
+    font-style: italic;
+    font-weight: 900px;
+
+}
+
+button{
+    color: aliceblue;
+    background-color: black;
+    padding: 5px 9px;
+    border: 2px solid silver;
+    margin-right: 11px;
+    border-radius: 3px;
+}
+button:hover{
+    color: black;
+    background-color: silver;
+    border: 2px solid rgb(32, 32, 32);
+}
+p{
+    color: white;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-shadow: 0 0 20px black;
+    
+}
