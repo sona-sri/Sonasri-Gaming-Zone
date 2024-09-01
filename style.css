@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgb(29,59,189);
+    background: radial-gradient(circle, rgba(29,59,189,1) 0%, rgba(0,15,42,1) 100%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+main {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust grid to 4 columns */
+    gap: 20px; /* Space between grid items */
+}
+
+.grid-item {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(124, 162, 219) 100%);
+    padding: 10px; /* Padding inside the box */
+    text-align: center;
+    /*box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+.grid-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the grid item on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow to highlight the hover effect */
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(4, 19, 118) 100%); /* Change background color on hover */
+}
+
+.grid-item img {
+    width: 190px; /* Ensures the image takes full width of the grid item */
+    height: 165px; /* Maintain aspect ratio */
+    border-radius: 8px; 
+}
+
+h4{
+    margin: 0;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.grid-item button {
+    background: rgb(29,59,189);
+    background: radial-gradient(circle, rgba(29,59,189,1) 0%, rgba(0,15,42,1) 100%);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.grid-item button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 1, 84);
+    border: #000000;
+    font-weight: bold;
+    padding: 8px 18px;
+
+}
